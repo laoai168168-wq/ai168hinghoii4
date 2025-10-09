@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gclub&Sbobet </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --primary:#0f63ff;
+      --accent:#6ee7b7;
+      --glass: rgba(255,255,255,0.6);
+      --shadow: 0 6px 18px rgba(16,24,40,0.08);
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;background:var(--bg);color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{display:flex;min-height:100vh}
+
+    /* SIDEBAR */
+    aside{
+      width:260px;background:linear-gradient(180deg,#ffffff, #ffffff);box-shadow:var(--shadow);padding:28px;flex-shrink:0;
+    }
+    .brand{display:flex;gap:12px;align-items:center;margin-bottom:18px}
+    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--primary),#ffffff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+    .nav-item{display:flex;gap:12px;align-items:center;padding:10px;border-radius:10px;color:var(--muted);text-decoration:none}
+    .nav-item.active{background:linear-gradient(90deg, rgba(15,99,255,0.08), rgba(168, 168, 170, 0.02));color:var(--primary);font-weight:600}
+
+    /* MAIN */
+    main{flex:1;padding:28px}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+    .search{flex:1;display:flex;align-items:center;gap:10px;background:var(--card);padding:10px;border-radius:12px;box-shadow:var(--shadow)}
+    .search input{border:0;outline:none;background:transparent;width:100%;font-size:14px}
+    .actions{display:flex;gap:8px;align-items:center}
+    .btn{background:var(--primary);color:white;padding:10px 14px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
+    .btn.ghost{background:transparent;color:var(--primary);border:1px solid rgba(15,99,255,0.12)}
+
+    /* GRID */
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:var(--shadow)}
+    .card h3{margin:0 0 8px 0}
+    .small{font-size:13px;color:var(--muted)}
+
+    /* FILE LIST */
+    .file-list{margin-top:12px}
+    .file{display:flex;justify-content:space-between;align-items:center;padding:10px;border-radius:10px;border:1px solid rgba(15,23,42,0.04);margin-bottom:8px}
+    .file .left{display:flex;gap:12px;align-items:center}
+    .file .thumb{width:42px;height:42px;border-radius:8px;background:linear-gradient(135deg,#fef3c7,#fde68a);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .file .meta{display:flex;flex-direction:column}
+    .file .meta .title{font-weight:600}
+    .file .meta .meta2{font-size:13px;color:var(--muted)}
+
+    /* TEAM */
+    .team{display:flex;gap:12px;align-items:center}
+    .avatar{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,#ffd7e2,#ffd9b3);display:flex;align-items:center;justify-content:center;font-weight:700}
+
+    /* FOOTER */
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* RESPONSIVE */
+    @media (max-width:980px){
+      aside{display:none}
+      .container{flex-direction:column}
+      .grid{grid-template-columns:repeat(2,1fr)}
+      main{padding:18px}
+    }
+    @media (max-width:560px){
+      .grid{grid-template-columns:1fr}
+      .search{display:none}
+      .topbar{flex-direction:column;align-items:flex-start;gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <div class="brand">
+        <div class="logo"><img src="c:\Users\ASUS\Downloads\G&B.jpeg" alt="คำอธิบายรูป" width="50" height="50">
+</div>
+        <div>
+          <div style="font-weight:700">AI 168</div>
+          <div class="small">ອັນດັບ1 ຂອງລາວ</div>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-item active" href="#">🏠 ຫນ້າຫລັກ</a>
+        <a class="nav-item" href="https://www.royal558.com/slotView"><img src="c:\Users\ASUS\Downloads\slot.png" alt="คำอธิบายรูป" width="30" height="30">
+ ສະລ໋ອດ</a>
+        <a class="nav-item" href="https://www.sunday999.com/en/euro"><img src="c:\Users\ASUS\Downloads\football.png" alt="คำอธิบายรูป" width="30" height="30">
+ ບານ</a>
+        <a class="nav-item" href="https://www.royal558.com/cardView"><img src="c:\Users\ASUS\Downloads\Screenshot 2025-10-03 172233.png" alt="คำอธิบายรูป" width="30" height="30">
+ ໄພ້</a>
+        <a class="nav-item" href="https://www.sunday999.com/games/pg-soft"><img src="c:\Users\ASUS\Downloads\pg-slot.png" alt="คำอธิบายรูป" width="30" height="30">
+ຄ່າຍເກມPG</a>
+
+      </nav>
+      <div style="margin-top:18px">
+        <div class="small"></div>
+        <div style="margin-top:8px;background:linear-gradient(90deg,#ecfeff,#fff7ed);padding:10px;border-radius:10px;">ຍອດລູກຄ້າຖອນມື້ນີ້: <strong>28,000,000 LAK</strong></div>
+      </div>
+      <footer style="margin-top:24px">
+        <div class="small">© LAO AI168</div>
+      </footer>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div class="search">
+          🔎<input placeholder="ຄົ້ນຫາເກມ..." />
+        </div>
+        <div class="actions">
+          <a href="ເວັບເກມໃຫມ່ - 02.html"  </a><button class="btn ghost">ບັນຊີການໂອນ</button>
+          <a href="https://wa.me/8562052476711"</a><button><button class="btn ghost"</button>ຕິດຕໍ່ພະນັກງານ</button></a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <section class="card">
+          <h3>ເວັບທີ່ດີທີ່ສຸດໃນລາວຕອນນີ້</h3>
+          <div class="small"></div>
+          <div style="display:flex;gap:12px;margin-top:12px">
+            <div style="flex:1;background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)">
+              <div class="small">ເກມທັງຫມົດ</div>
+              <div style="font-size:20px;font-weight:700">1000</div>
+            </div>
+            <div style="flex:1;background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)">
+              <div class="small">ຄ່າຍເກມທັງຫມົດ</div>
+              <div style="font-size:20px;font-weight:700">2</div>
+              <img src="c:\Users\ASUS\Downloads\Gclub.jpeg" alt="คำอธิบายรูป" width="50" height="50"><img src="c:\Users\ASUS\Downloads\sbobet.jpeg" alt="คำอธิบายรูป" width="50" height="50">
+
+
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="documents">
+          <h3>ເກມຕິດອັນດັບ</h3>
+          <div class="file-list">
+            <div class="file">
+              <div class="left">
+                <div class="thumb"><img src="c:\Users\ASUS\Downloads\ມາຈຽງມະຫາລວຍ.jpg" alt="คำอธิบายรูป" width="60" height="60">
+</div>
+                <div class="meta">
+                  <div class="title">ຫມ່າຈຽງ ມະຫາລວຍ</div>
+                  <div class="meta2"></div>
+                </div>
+              </div>
+              <div style="display:flex;gap:8px;align-items:center">
+            
+                <button class="btn">ເປີດ</button>
+              </div>
+            </div>
+
+            <div class="file">
+              <div class="left">
+                <div class="thumb"><img src="c:\Users\ASUS\Downloads\ຟໍຈູນ4.jpg" alt="คำอธิบายรูป" width="60" height="60">
+</div>
+                <div class="meta">
+                  <div class="title">ຟໍຈູນເຈມ 4</div>
+                 
+                </div>
+              </div>
+              <div style="display:flex;gap:8px;align-items:center">
+               
+                <button class="btn">ເປີດ</button>
+              </div>
+            </div>
+
+            <div class="file">
+              <div class="left">
+                <div class="thumb"><img src="c:\Users\ASUS\Downloads\ຟາໂລ2.jpg" alt="คำอธิบายรูป" width="70" height="70">
+</div>
+                <div class="meta">
+                  <div class="title">ຟາໂຮ 2</div>
+                  
+                </div>
+              </div>
+              <div style="display:flex;gap:8px;align-items:center">
+              
+                <button class="btn">ເປີດ</button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="card" id="team">
+          <h3>ນ້ອງແອັດມິນ</h3>
+          <div class="small">ສະມາຊິກພະນັກງານ</div>
+          <div style="margin-top:12px" class="team">
+            <div class="avatar">AA</div>
+            <div class="avatar">KM</div>
+            <div class="avatar">PT</div>
+            <div style="margin-left:auto;text-align:right">
+              <div style="font-weight:700">ຜູ້ໃຊ້ງານ: 404</div>
+              <div class="small">ອອນໄລ: 105</div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <section class="card" style="margin-top:18px" id="calendar">
+        <h3>1.ສະມັກສະມາຊິກມື້ນີ້ຮັບຟຮີຄືນຍອດເສຍ 20% </h3><h3ຝາກ-ຖອນ ບໍ່ມີຂັ້ນຕ່ຳ ><h3>2.ແນະນຳຫມູ່ມາຫລິ້ນຮັບໂບນັດຟຮີ</h3><img src="c:\Users\ASUS\Downloads\360_F_262035364_gGi8uJsPl9uljis8C6oxI0w6AM7MKDLq.jpg" alt="คำอธิบายรูป" width="350" height="100">
+     
+
+
+       
+        <div style="margin-top:12px;display:flex;gap:12px;flex-wrap:wrap">
+          <div style="flex:1;min-width:220px">
+            <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)">
+              <div style="font-weight:700"></div>
+              <div class="small"></div>
+            </div>
+          </div>
+          <div style="flex:1;min-width:220px">
+            <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)">
+              <div style="font-weight:700"></div>
+              <div class="small"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        ເວັບມີປັນຫາຕິດຕໍ່ເບີດ່ວນ — 020 52409466
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // ตัวอย่างสคริปต์เล็กๆ สำหรับเปิด/ดาวน์โหลด (เชื่อมกับ backend ได้ง่าย)
+    document.querySelectorAll('.file button').forEach(btn => {
+      btn.addEventListener('click', (e)=>{
+        const label = e.target.innerText.trim();
+        if(label === 'ดาวน์โหลด'){
+          alert('ตัวอย่าง: เริ่มดาวน์โหลด (เชื่อมกับ backend เพื่อให้ไฟล์จริง)');
+        } else if(label === 'เปิด'){
+          alert('ตัวอย่าง: เปิดเอกสาร (แทนที่ด้วย viewer หรือลิงก์จริง)');
+        }
+      })
+    })
+  </script>
+</body>
+</html>
