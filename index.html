@@ -7,6 +7,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
+      <script>
+  // ลบ element ที่มีคลาส overlay/mask/dots
+  document.querySelectorAll('.overlay, .mask, .dots, .background-pattern').forEach(el => el.remove());
+
+  // หรือถ้ารู้ id
+  const el = document.getElementById('overlay');
+  if (el) el.remove();
+</script>
+
       --bg:#100c08;
       --card:#ffffff;
       --muted:#6b7280;
@@ -263,6 +272,7 @@
   </script>
 </body>
 </html>
+
 
 
 
