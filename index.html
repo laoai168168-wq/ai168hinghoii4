@@ -306,113 +306,7 @@ function toggleMenu() {
      <a href="lukyslot03.html"</a><button class="btn btn-primry">ຫມຸນວົງລໍ້ ລຸ້ນໂຊກ</button></a>
       <img src="vonglor.jpg" alt="คำอธิบายรูป" width="70" height="70">                       
        <img src="pro i phone17.jpeg" alt="คำอธิบายรูป" width="350" height="350">
-        <!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>หนังสือไหลขึ้นด้านบน</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      overflow: hidden;
-      background: linear-gradient(180deg, #ffe4f2, #fff);
-      font-family: "Phetsarath OT", sans-serif;
-      color: #333;
-    }
-
-    .container {
-      width: 360px;
-      height: 600px;
-      margin: 40px auto;
-      background: white;
-      border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      overflow: hidden;
-      position: relative;
-    }
-
-    h1 {
-      background: #ff69b4;
-      color: white;
-      padding: 15px;
-      text-align: center;
-      font-size: 20px;
-      margin: 0;
-    }
-
-    .content {
-      position: absolute;
-      width: 100%;
-      top: 100%;
-      animation: scrollUp linear infinite;
-    }
-
-    .page {
-      padding: 20px;
-      border-bottom: 1px solid #ffd6ec;
-    }
-
-    .page h2 {
-      color: #ff3d8a;
-      margin-bottom: 10px;
-    }
-
-    @keyframes scrollUp {
-      from { top: 100%; }
-      to { top: -100%; }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>📖 หนังสือไหลขึ้นด้านบน</h1>
-    <div class="content" id="content">
-      <div class="page">
-        <h2>บทที่ 1: เริ่มต้น</h2>
-        <p>สวัสดี! ยินดีต้อนรับสู่หนังสือไหลขึ้นอัตโนมัติ เนื้อหานี้จะเลื่อนขึ้นเรื่อย ๆ แบบต่อเนื่อง</p>
-      </div>
-      <div class="page">
-        <h2>บทที่ 2: การอ่าน</h2>
-        <p>คุณสามารถอ่านได้เรื่อย ๆ โดยไม่ต้องเลื่อนเมาส์เลย เนื้อหาจะไหลขึ้นช้า ๆ อย่างสบายตา</p>
-      </div>
-      <div class="page">
-        <h2>บทที่ 3: การใช้งาน</h2>
-        <p>เหมาะสำหรับโชว์ข้อความ, คำคม, หรือเนื้อหาที่ต้องการให้แสดงแบบอัตโนมัติบนเว็บ</p>
-      </div>
-      <div class="page">
-        <h2>บทที่ 4: ตัวอย่าง</h2>
-        <p>คุณสามารถเปลี่ยนเนื้อหานี้เป็นบทความ, ข่าว, หรือข้อมูลโปรโมชั่นได้เลย!</p>
-      </div>
-      <div class="page">
-        <h2>บทที่ 5: จบการนำเสนอ</h2>
-        <p>ขอบคุณที่ทดลองใช้งาน “หนังสือไหลขึ้นด้านบน” ❤️</p>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // ปรับความเร็วการไหล (หน่วย: วินาที)
-    const speed = 60; // ยิ่งตัวเลขมาก ยิ่งช้า
-    const content = document.getElementById("content");
-    content.style.animationDuration = speed + "s";
-
-    // ทำให้วนลูปต่อเนื่อง (เมื่อไหลหมดแล้วเริ่มใหม่)
-    content.addEventListener("animationiteration", () => {
-      content.style.animation = "none";
-      void content.offsetWidth; // รีเซ็ต animation
-      content.style.animation = `scrollUp ${speed}s linear infinite`;
-    });
-  </script>
-</body>
-</html>
-
-
-     
-
-
-       
+        
         <div style="margin-top:12px;display:flex;gap:12px;flex-wrap:wrap">
           <div style="flex:1;min-width:220px">
             <div style="background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)">
@@ -450,6 +344,7 @@ function toggleMenu() {
   </script>
 </body>
 </html>
+
 
 
 
